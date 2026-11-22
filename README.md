@@ -51,6 +51,23 @@ By implementing Google's native **Quick Share / Nearby Share** protocol directly
 
 ---
 
+## 🛠️ The "Quick Share Bluetooth Fix": How DodgeDrop Works Without Bluetooth
+
+If you have ever tried using official Google Quick Share on a Windows desktop, you probably encountered this frustrating barrier:
+> ⚠️ *"Your PC requires Bluetooth to use Quick Share"* or *"PC not showing up in Quick Share search"*.
+
+### Why Standard Quick Share Fails on Many Windows PCs:
+1. **Desktop PCs Lack Bluetooth Hardware**: Most custom gaming rigs, workstations, and office desktops connect via wired Ethernet LAN and have no Bluetooth / BLE card installed.
+2. **Official App Enforces Bluetooth**: The standard Google Quick Share app refuses to accept transfers without an active Bluetooth Low Energy (BLE UUID `0xFE2C`) adapter.
+3. **Bluetooth is Painfully Slow**: Even when Bluetooth works, transfer speeds rarely exceed 0.5 – 1.5 MB/s, making 4K video transfers virtually impossible.
+
+### How DodgeDrop Solves It:
+* 📡 **Direct Wi-Fi / Ethernet LAN Broadcast**: DodgeDrop advertises Google's native `_FC9F5ED42C8A._tcp.local.` service directly across your home or office router subnet.
+* 📱 **Instant Phone Discovery**: When you set Quick Share visibility to **"Everyone"** on your Android phone, Android actively scans your local Wi-Fi and instantly shows your PC in the share list — **zero Bluetooth required on your PC**.
+* ⚡ **Full LAN Gigabit Velocity**: Once you tap your PC, DodgeDrop opens a direct TCP socket and streams your files at **50 to 120 MB/s** (up to 100x faster than Bluetooth).
+
+---
+
 ## ✨ Key Features
 
 ### 🟢 1. Native Google Quick Share Receiver
