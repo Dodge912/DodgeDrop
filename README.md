@@ -6,6 +6,7 @@
 *Experience the freedom of Apple AirDrop on Windows — powered by Native Google Quick Share.*
 
 [![Release](https://img.shields.io/badge/Release-v1.0.0-3b82f6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dodge912/DodgeDrop/releases)
+[![Website](https://img.shields.io/badge/Website-Live%20Demo-10b981?style=for-the-badge&logo=googlechrome&logoColor=white)](https://dodge912.github.io/DodgeDrop/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
 [![Android](https://img.shields.io/badge/Android-Quick%20Share%20Native-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
 [![Speed](https://img.shields.io/badge/LAN%20Speed-Up%20to%20120%20MB%2Fs-f59e0b?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
