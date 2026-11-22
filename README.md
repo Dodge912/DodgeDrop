@@ -5,13 +5,12 @@
 ### **Next-Gen Wireless LAN File Sharing for Windows & Android**
 *Experience the freedom of Apple AirDrop on Windows — powered by Native Google Quick Share.*
 
-[![Release](https://img.shields.io/badge/Release-v1.0.0-3b82f6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com)
-[![Android](https://img.shields.io/badge/Android-Quick%20Share%20Native-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com)
-[![Speed](https://img.shields.io/badge/LAN%20Speed-Up%20to%20120%20MB%2Fs-f59e0b?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com)
-[![Security](https://img.shields.io/badge/Security-E2EE%20UKEY2%20P--256-8b5cf6?style=for-the-badge&logo=auth0&logoColor=white)](https://github.com)
-[![Author](https://img.shields.io/badge/Built%20by-DODGE-ec4899?style=for-the-badge)](https://github.com)
-[![License](https://img.shields.io/badge/License-MIT-gray?style=for-the-badge)](LICENSE)
+[![Release](https://img.shields.io/badge/Release-v1.0.0-3b82f6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Dodge912/DodgeDrop/releases)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(64--bit)-0078d4?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
+[![Android](https://img.shields.io/badge/Android-Quick%20Share%20Native-34d399?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
+[![Speed](https://img.shields.io/badge/LAN%20Speed-Up%20to%20120%20MB%2Fs-f59e0b?style=for-the-badge&logo=speedtest&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
+[![Security](https://img.shields.io/badge/Security-E2EE%20UKEY2%20P--256-8b5cf6?style=for-the-badge&logo=auth0&logoColor=white)](https://github.com/Dodge912/DodgeDrop)
+[![Author](https://img.shields.io/badge/Built%20by-DODGE-ec4899?style=for-the-badge)](https://github.com/Dodge912)
 
 <br/>
 
@@ -105,8 +104,9 @@ DodgeDrop includes hardware-level anti-debugging protection, direct Windows Proc
 ### Option 1: Download Release Installer
 Download the latest Windows installer bundle directly from GitHub Releases:
 
-* **[Download DodgeDrop Installer (.exe)](https://github.com)** *(Recommended)*
-* **[Download DodgeDrop Package (.msi)](https://github.com)**
+* **[Download DodgeDrop Installer (.exe)](https://github.com/Dodge912/DodgeDrop/releases/latest/download/DodgeDrop_1.0.0_x64-setup.exe)** *(Recommended NSIS Setup)*
+* **[Download DodgeDrop Package (.msi)](https://github.com/Dodge912/DodgeDrop/releases/latest/download/DodgeDrop_1.0.0_x64_en-US.msi)** *(Enterprise WiX Installer)*
+* **[Download Portable DodgeDrop (.exe)](https://github.com/Dodge912/DodgeDrop/releases/latest/download/dodgedrop.exe)** *(No Install Needed)*
 
 ### Option 2: Portable Standalone Executable
 If you prefer not to install, simply download `dodgedrop.exe` and run it directly. All web assets, icons, and database migrations are embedded inside the single executable!
