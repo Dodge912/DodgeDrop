@@ -1,0 +1,9 @@
+# Executables & Binaries (Release binaries should be uploaded as GitHub Release assets)
+*.exe
+*.msi
+*.zip
+*.tar.gz
+
+# Local OS files
+.DS_Store
+Thumbs.db
